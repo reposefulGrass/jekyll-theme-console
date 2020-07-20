@@ -74,18 +74,18 @@ textarea { vertical-align: top; }
 figure.highlight { margin: 5px 0; }
 pre { 
     background-color: var(--code-background-color);  
-    border: 4px black;  
-	border-style: none none none solid;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 5px;
-	margin: 0;  
-	overflow: auto;  
-	font-size: $base-font-size;  
-	color: var(--text-color);  
-	line-height: 1.7 !important;  
-	font-family: $base-font-family !important; 
+    border: 4px #070000;  
+    border-style: none none none solid;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0;  
+    overflow: auto;  
+    font-size: $base-font-size;  
+    color: var(--text-color);  
+    line-height: 1.7 !important;  
+    font-family: $base-font-family !important; 
 }
 .highlight .hll { background-color: var(--code-color-2); }
 .highlight .c { color: var(--code-color-1); font-style: italic } /* Comment */
