@@ -74,7 +74,8 @@ textarea { vertical-align: top; }
 figure.highlight { margin: 5px 0; }
 pre { 
     background-color: var(--code-background-color);  
-    border: 4px none none none solid black;  
+    border: 4px black;  
+	border-style: none none none solid;
 	padding-top: 5px;
 	padding-right: 10px;
 	padding-left: 10px;
